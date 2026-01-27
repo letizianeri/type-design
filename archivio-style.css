@@ -108,10 +108,33 @@ nav a:hover {
 }
 
 .caption-wrapper.open .category-caption {
-    max-height: 500px; /* valore abbastanza grande */
+    max-height: 500px;
     opacity: 1;
 }
 
+
+.grid-archive {
+    width: 99vw;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    margin: 90px auto 60px -22px;
+}
+
+.grid-archive a {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-archive img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 
 
