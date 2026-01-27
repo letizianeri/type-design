@@ -80,11 +80,7 @@ nav a:hover {
     justify-content: center;
     gap: 20px;
     font-size: 16pt;
-}
-
-.category-caption {
-    width: 80%;
-    margin: 0 auto;
+    cursor: pointer;
 }
 
 .icon {
@@ -92,9 +88,28 @@ nav a:hover {
 } 
 
 .arrow {
-    cursor: pointer;
     font-size: 18px;
     margin-left: 15px;
+    transition: transform 0.3s ease;
+}
+
+.caption-wrapper.open .arrow {
+    transform: rotate(180deg);
+}
+
+.category-caption {
+    width: 80%;
+    margin: 0 auto;
+
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+}
+
+.caption-wrapper.open .category-caption {
+    max-height: 500px; /* valore abbastanza grande */
+    opacity: 1;
 }
 
 
