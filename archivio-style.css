@@ -70,6 +70,9 @@ nav a:hover {
     gap: 60px;
 }
 
+.icon img {
+    height: 20px;
+}
 
 .arrow {
     font-size: 18px;
