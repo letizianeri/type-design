@@ -61,20 +61,38 @@ nav a:hover {
 
 .img-full img {
   width: 85vw;
+  margin-bottom: 35px;
 }
 
 .flex-categories {
     display: flex;
-    flex-direction: row;
     width: 85vw;
-    gap: 60px;
+    gap: 80px;
 }
 
-.icon img {
-    height: 20px;
+.caption-wrapper {
+    width: 25vw;
 }
+
+.category-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16pt;
+}
+
+.category-caption {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.icon {
+    height: 50px;
+} 
 
 .arrow {
+    cursor: pointer;
     font-size: 18px;
     margin-left: 15px;
 }
