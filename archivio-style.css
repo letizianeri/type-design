@@ -41,6 +41,7 @@ nav a:hover {
 .full-screen {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -56,6 +57,23 @@ nav a:hover {
 
 .full-text p:not(:last-child) {
     margin-bottom: 50px;
+}
+
+.img-full img {
+  width: 85vw;
+}
+
+.flex-categories {
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+    gap: 60px;
+}
+
+
+.arrow {
+    font-size: 18px;
+    margin-left: 15px;
 }
 
 
