@@ -47,14 +47,12 @@ nav a:hover {
     align-items: center;
 }
 
-.title-about-project {
+.title-about-project,
+.title-about-team {
     text-align: left;
     width: 55vw;
     margin-top: 70px;
-}
-
-.title-about-project  {
-    font-size: 22pt;
+     font-size: 22pt;
 }
 
 .full-text {
@@ -66,9 +64,7 @@ nav a:hover {
 .tabloid {
     max-height: 490px;
     max-width: 600px;
-    margin-left: 330px;
-    opacity: 1;
-    margin-top: 60px;
+    margin: 60px auto 0;
     display: flex;
     justify-content: center;
 
@@ -82,15 +78,7 @@ nav a:hover {
     align-items: center;
 }
 
-.title-about-team {
-    text-align: left;
-    width: 55vw;
-    margin-top: 70px;
-}
 
-.title-about-team  {
-    font-size: 22pt;
-}
 
 /* wrapper generale */
 .team-wrapper {
