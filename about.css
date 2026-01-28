@@ -91,3 +91,58 @@ nav a:hover {
 .title-about-team  {
     font-size: 22pt;
 }
+
+/* wrapper generale */
+.team-wrapper {
+  width: 55vw;
+  margin: 20px auto 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* griglia */
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: clamp(80px, 8vw, 160px);
+}
+
+/* card */
+.card {
+  justify-self: center;
+}
+
+/* contenitore immagine */
+.image-wrapper {
+  position: relative;
+  width: 350px;
+  height: 350px;
+}
+
+/* immagini */
+.image-wrapper img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+/* stato hover */
+.img-hover {
+  opacity: 0;
+}
+
+.card:hover .img-hover {
+  opacity: 1;
+}
+
+.card:hover .img-base {
+  opacity: 0;
+}
+
+
+
+
