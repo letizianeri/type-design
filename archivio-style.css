@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Crypta Nova - Monospaced';
-    font-size: 10pt;
+    font-size: 12pt;
     background-color: #f4f4f4;
     color: #005baa;
     line-height: 1.4;
@@ -47,12 +47,12 @@ nav a:hover {
 }
 
 .full-text {
-    text-align: center;
+    text-align: left;
     width: 55vw;
 }
 
 .full-text p {
-    font-size: 12pt;
+    font-size: 14pt;
 }
 
 .full-text p:not(:last-child) {
