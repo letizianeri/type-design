@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Crypta Nova - Monospaced';
+    src:
+        url('./assets/CryptaNova-Monospaced-Regular.otf')
+        format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Crypta Nova - Monospaced';
+    font-size: 10pt;
+    background-color: #f4f4f4;
+    color: #005baa;
+    line-height: 1.4;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-bottom: 80px;
+    border-bottom: 1px solid #005baa;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #005baa;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.full-screen {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-about-project {
+    text-align: left;
+    width: 55vw;
+    margin-top: 70px;
+}
+
+.title-about-project  {
+    font-size: 22pt;
+}
+
+.full-text {
+    text-align: left;
+    width: 55vw;
+    font-size: 14pt;
+}
+
+.tabloid {
+    max-height: 490px;
+    max-width: 600px;
+    margin-left: 330px;
+    opacity: 1;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.full-screen-2 {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-about-team {
+    text-align: left;
+    width: 55vw;
+    margin-top: 70px;
+}
+
+.title-about-team  {
+    font-size: 22pt;
+}
