@@ -221,20 +221,3 @@ h3 {
 
 
 
-/* Responsive: mobile */
-@media (max-width: 900px) {
-  .timeline::before {
-    left: 20px;
-    transform: none;
-  }
-
-  .year-marker {
-    left: 20px;
-    transform: none;
-  }
-
-  .year-marker span.line {
-    margin-left: 0;
-    width: 30px;
-  }
-}
