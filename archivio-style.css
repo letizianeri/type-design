@@ -59,6 +59,11 @@ nav a:hover {
     margin-bottom: 50px;
 }
 
+.img-gallery img {
+  width: 100vw;
+  margin: 35px;
+}
+
 .img-full img {
   width: 85vw;
   margin-bottom: 35px;
