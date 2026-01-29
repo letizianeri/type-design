@@ -69,14 +69,16 @@ nav a:hover {
 
 
 .tabloid {
-    width: 55vw;            
-    max-width: 100%;        
-    height: auto;         
-    margin: 120px auto 0;    
-    display: block;         
-    object-fit: cover;
+  width: 80vw;
+  max-width: none;
+  height: auto;
+  margin-top: 120px;
+  display: block;
+  object-fit: cover;
 
+  margin-left: 133px;
 }
+
 
 .full-screen-2 {
     height: 20vh;
