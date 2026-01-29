@@ -180,16 +180,17 @@ h3 {
 
 .year-marker {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 50%;                 
+  transform: translateX(-100%);
   display: flex;
-  flex-direction: row-reverse; 
   align-items: center;
-  gap: 10px;
   font-size: 24px;
-  letter-spacing: 0.15em;
   color: #000;
+  z-index: 2;                 
+  flex-direction: row-reverse; 
 }
+
+
 
 .year-marker .line {
   width: 40px;
@@ -198,33 +199,42 @@ h3 {
 }
 
 .year-marker.top {
-  top: -16px;
-  left: 645px;
+  top: -15.5px;            
 }
 
 .year-marker.bottom {
-  bottom: 600px;
-  left: 645px;
-}
-
-
-
-
-
-
-.year-marker .line {
-  width: 40px;
-  height: 2px;
-  background-color: #000;
+  top: 1300px;           
 }
 
 .year-marker.top2 {
-  top: -30px;
-  left: 598px;
+  top: -30px;           
 }
 
 .year-marker.bottom2 {
-  bottom: 780px;
-  left: 580px;
+  top: 1300px;            
 }
 
+.year-marker span.line {
+  margin-left: 10px;     
+}
+
+
+
+
+/* Responsive: mobile */
+@media (max-width: 900px) {
+  .timeline::before {
+    left: 20px;
+    transform: none;
+  }
+
+  .year-marker {
+    left: 20px;
+    transform: none;
+  }
+
+  .year-marker span.line {
+    margin-left: 0;
+    width: 30px;
+  }
+}
