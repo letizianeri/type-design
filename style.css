@@ -59,7 +59,28 @@ h3 {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 130px;
   padding: 20px;
+  position: relative;
 }
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background-color: #000;
+}
+
+.timeline:last-of-type {
+  padding-bottom: 200px;
+}
+
+.timeline::before:last-of-type {
+  height: calc(100% + 400px);
+}
+
 
 .column {
   display: flex;
@@ -72,11 +93,11 @@ h3 {
 }
 
 .tab-text {
-    padding: 20px;
+  padding: 20px;
 }
 
 .tab-text p {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .tab-title {
@@ -109,11 +130,12 @@ h3 {
 
 .button {
   display: block;
-  margin: 200px auto 100px auto;
+  margin: 0px 610px 100px 610px;
   text-align: center;
   font-family: 'Crypta Nova - Monospaced';
   font-size: 13pt;
   text-decoration: none;
+  border: 2px solid black;
   color: #005baa;
 }
 
@@ -126,5 +148,9 @@ h3 {
 @media (max-width: 900px) {
   .timeline {
     grid-template-columns: 1fr;
+  }
+
+  .timeline::before {
+    display: none;
   }
 }
