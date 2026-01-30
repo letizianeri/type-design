@@ -80,6 +80,7 @@ h3 {
 }
 
 .timeline:last-of-type {
+  padding-top: 40px;
   padding-bottom: 200px;
 }
 
@@ -126,10 +127,9 @@ h3 {
   display: block;
 }
 
-
 .button {
   display: block;
-  margin: 0 42% 100px 42%;
+  margin: 0 43% 100px 43%;
   text-align: center;
   font-family: 'Crypta Nova - Monospaced';
   font-size: 13pt;
@@ -154,9 +154,9 @@ h3 {
 .img-full img {
   width: 100%;
   display: block;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
-
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
@@ -169,7 +169,6 @@ h3 {
   }
 }
 
-
 .year-marker {
   position: absolute;
   left: 50%;                 
@@ -181,8 +180,6 @@ h3 {
   z-index: 2;                 
   flex-direction: row-reverse; 
 }
-
-
 
 .year-marker .line {
   width: 40px;
@@ -204,6 +201,11 @@ h3 {
 
 .year-marker.bottom2 {
   top: 1410px;            
+}
+
+#v-sec {
+  margin-top: 65px;
+  margin-bottom: 10px;
 }
 
 .year-marker span.line {
