@@ -6,7 +6,7 @@ folder_path = "/Users/a39339/Desktop/type design/PROGETTO FINALE/type-design/car
 new_nav_content = (
 '        <a href="../archivio.html#grid-archive" class="back-btn">&lt; INDIETRO</a>\n\n'
 '        <div class="nav-right">\n'
-'            <a href="../index.html">Home</a>\n'
+'            <a href="../index.html">Intro</a>\n'
 '            <a href="../archivio.html">Archivio</a>\n'
 '            <a href="../specimen.html">Specimen</a>\n'
 '            <a href="../about.html">About</a>\n'
