@@ -79,7 +79,6 @@ h3 {
   z-index: 1;
 }
 
-
 .timeline:last-of-type {
   padding-bottom: 200px;
 }
@@ -87,9 +86,6 @@ h3 {
 .timeline::before:last-of-type {
   height: calc(100% + 400px);
 }
-
-
-
 
 .column {
   display: flex;
