@@ -75,8 +75,14 @@ nav a:hover {
   transform: translateX(-50%);
 }
 
+.img-full {
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+}
+
 .img-full img {
-  width: 100%;
+  width: 90vw;
   display: block;
   padding-bottom: 50px;
 }
