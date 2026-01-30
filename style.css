@@ -69,11 +69,12 @@ h3 {
 .timeline-wrapper::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: -30;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 2px;
-  height: 100%;
+  height: calc(100% + 30px);
   background-color: #000;
   z-index: 1;
 }
@@ -93,7 +94,7 @@ h3 {
 .column {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 100px;
 }
 
 .tab {
@@ -129,12 +130,7 @@ h3 {
   display: block;
 }
 
-.img-full img {
-  width: 100%;
-  display: block;
-  padding-bottom: 50px;
-  z-index: 100;
-}
+
 
 .button {
   display: block;
@@ -163,6 +159,7 @@ h3 {
 .img-full img {
   width: 100%;
   display: block;
+  padding-bottom: 50px;
 }
 
 
@@ -199,11 +196,11 @@ h3 {
 }
 
 .year-marker.top {
-  top: -15.5px;            
+  top: -46px;            
 }
 
 .year-marker.bottom {
-  top: 1300px;           
+  top: 1380px;           
 }
 
 .year-marker.top2 {
@@ -211,7 +208,7 @@ h3 {
 }
 
 .year-marker.bottom2 {
-  top: 1300px;            
+  top: 1410px;            
 }
 
 .year-marker span.line {
